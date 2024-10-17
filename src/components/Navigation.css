@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: white;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: white;
+}

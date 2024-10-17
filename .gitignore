@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Ignore all node_modules folders
+node_modules/
+**/node_modules/
+
+# Yarn & npm package files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package manager files
+/.pnp
+.pnp.js
+
+# Test coverage output
+/coverage/
+
+# Production build output
+/build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+.DS_Store
+
+# IDE and Editor settings
+.vscode/
+.idea/

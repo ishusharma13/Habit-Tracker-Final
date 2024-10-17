@@ -1,0 +1,73 @@
+.dashboard {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.habit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  gap: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #218838;
+}
+
+.empty-message {
+  color: #666;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
